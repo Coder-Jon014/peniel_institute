@@ -15,9 +15,10 @@ const Courses = () => {
       <div className="grid grid-cols-3 grid-rows-5 gap-y-6">
         <div className="col-span-2 row-start-1">
           <h2 className="text-4xl font-bold mb-4">Courses We Offer</h2>
+          <p className="text-gray-400">Designed to meet the training needs of leaders-to-be. Here are some of the courses we offer</p>
         </div>
         <div className="col-span-2 row-start-2">
-          <p className="text-gray-400">Designed to meet the training needs of leaders-to-be. Here are some of the courses we offer</p>
+          <p className="text-gray-400"> </p>
         </div>
         {courses.map((course, index) => (
           <div key={index} className={`col-span-2 row-start-${index + 3} flex`}>
