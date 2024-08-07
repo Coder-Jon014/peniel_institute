@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { BackgroundBeams } from './backgroundBeams';
+import BackgroundBeams from './backgroundBeams';
 
 const courses = [
   { title: 'Leadership and Management', description: 'The Leadership and Management Course is provided for adult learners as a customized course designed to meet the training needs of the individual learner regardless of socio-economic status who wants to become an effective leader or manager of his or her business; perform optimally in an organization.' },
