@@ -55,6 +55,16 @@ const config = {
         'peniel-main': '#DC241C',
         'peniel-secondary': '#2C1474',
       },
+      fontSize: {
+        'responsive-xs': ['0.75rem', '1rem'],
+        'responsive-sm': ['0.875rem', '1.25rem'],
+        'responsive-base': ['1rem', '1.5rem'],
+        'responsive-lg': ['1.125rem', '1.75rem'],
+        'responsive-xl': ['1.25rem', '1.75rem'],
+        'responsive-2xl': ['1.5rem', '2rem'],
+        'responsive-3xl': ['1.875rem', '2.25rem'],
+        'responsive-4xl': ['2.25rem', '2.5rem'],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

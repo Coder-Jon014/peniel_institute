@@ -10,23 +10,23 @@ const reasons = [
 
 const WhyStudy = () => {
   return (
-    <div className="py-16 px-20 bg-white relative overflow-hidden">
-      <div className="absolute -left-14 top-1/2 transform -translate-y-1/2 bg-peniel-secondary text-white py-2 px-4 rotate-90 origin-top-left z-1000">
+    <div className="py-8 sm:py-12 lg:py-16 px-4 sm:px-8 lg:px-20 bg-white overflow-hidden">
+      {/* <div className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-peniel-secondary text-white text-sm py-2 px-4 -rotate-90 origin-top-left z-1000 rounded-lg">
         Why Us
-      </div>
-      <div className=" max-w-7xl  grid grid-cols-4 grid-rows-2 gap-y-4 gap-x-2">
-        <div className="Heading-and-Subheading col-span-2 row-span-2 pr-20 my-auto">
-          <h2 className="text-4xl font-bold mb-4">Why Study at Peniel</h2>
+      </div> */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="col-span-full lg:col-span-2 lg:row-span-2 pr-4 lg:pr-20 mb-8 lg:mb-0">
+          <h2 className="text-responsive-3xl font-bold mb-4">Why Study at Peniel</h2>
           <p className="text-sm text-black">At Peniel Institute, we are committed to providing quality education that empowers our students to become leaders in their fields. Here are some of the reasons why you should study at Peniel:</p>
         </div>
         {reasons.map((reason, index) => (
-          <Card key={index} className={`Card-${index + 1}`}>
+          <Card key={index} className={`Card-${index + 1} w-full`}>
             <CardHeader>
-              <CardTitle className="flex items-center">
-                <span className="text-2xl mr-2">{reason.icon}</span>
+              <CardTitle className="flex items-center text-lg sm:text-xl">
+                <span className="text-xl sm:text-2xl mr-2">{reason.icon}</span>
                 {reason.title}
               </CardTitle>
-              <CardDescription>{reason.description}</CardDescription>
+              <CardDescription className="text-xs sm:text-sm text-black">{reason.description}</CardDescription>
             </CardHeader>
           </Card>
         ))}
