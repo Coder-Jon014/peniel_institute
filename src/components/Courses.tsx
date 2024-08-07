@@ -8,11 +8,11 @@ const courses = [
 
 const Courses = () => {
   return (
-    <div className="py-16 px-20 bg-black text-white relative" id="courses">
-      <div className="absolute -left-10 top-1/2 transform -translate-y-1/2 bg-peniel-main text-white py-2 px-4 rotate-90 origin-top-left">
+    <div className="py-16 px-20 bg-black text-white " id="courses">
+      {/* <div className="absolute top-1/2 -rotate-90 right-0 transform -translate-y-1/2 bg-peniel-main text-white py-2 px-6">
         Courses
-      </div>
-      <div className="grid grid-cols-3 grid-rows-4">
+      </div> */}
+      <div className="grid grid-cols-3 grid-rows-4 mt-8">
         <div className="col-span-2 row-start-1">
           <h2 className="text-4xl font-bold mb-4">Courses We Offer</h2>
           <p className="text-gray-400">Designed to meet the training needs of leaders-to-be. Here are some of the courses we offer</p>
@@ -23,7 +23,7 @@ const Courses = () => {
             <div className="text-[#DC241C] font-bold text-xl mr-4">{(index + 1).toString().padStart(2, '0')}</div>
             <div>
               <h3 className="text-xl font-bold mb-2">{course.title}</h3>
-              <p className="text-gray-400">{course.description}</p>
+              <p className="text-gray-400 text-sm">{course.description}</p>
             </div>
           </div>
         ))}
