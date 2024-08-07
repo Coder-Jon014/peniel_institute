@@ -52,6 +52,8 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        'peniel-main': '#DC241C',
+        'peniel-secondary': '#2C1474',
       },
       borderRadius: {
         lg: "var(--radius)",

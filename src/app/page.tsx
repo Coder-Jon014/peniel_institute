@@ -1,9 +1,18 @@
-
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import WhyStudy from '../components/WhyStudy';
+import Courses from '../components/Courses';
+import Banner from '../components/Banner';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
+    <main className="min-h-screen">
+      <Navbar />
+      <Hero />
+      <Banner />
+      <WhyStudy />
+      <Courses />
+      {/* Add other sections here when ready */}
     </main>
   );
 }
