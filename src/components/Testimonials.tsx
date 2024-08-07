@@ -37,7 +37,7 @@ const Testimonials: React.FC = () => {
       </div>
       
       <p className="text-center mt-8 text-sm text-gray-600">
-        From members of Peniel Institute's 2021 graduating class.
+        From members of Peniel Institute&apos;s 2021 graduating class.
       </p>
     </div>
   );
