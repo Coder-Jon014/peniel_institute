@@ -11,7 +11,7 @@ const Courses = () => {
     <div className="py-8 md:py-16 px-4 md:px-20 bg-black text-white" id="courses">
       <div className="flex flex-col lg:grid lg:grid-cols-3 lg:gap-8">
         <div className="lg:col-span-2 mb-8 lg:mb-0">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Courses We Offer</h2>
+          <h2 className="text-3xl md:text-3xl font-bold mb-4">Courses We Offer</h2>
           <p className="text-gray-400">Designed to meet the training needs of leaders-to-be. Here are some of the courses we offer</p>
         </div>
 

@@ -3,6 +3,8 @@ import Hero from '../components/Hero';
 import WhyStudy from '../components/WhyStudy';
 import Courses from '../components/Courses';
 import Banner from '../components/Banner';
+import Testimonials from '../components/Testimonials';
+import JoinBanner from '../components/JoinBanner';
 
 export default function Home() {
   return (
@@ -12,7 +14,8 @@ export default function Home() {
       <Banner />
       <WhyStudy />
       <Courses />
-      {/* Add other sections here when ready */}
+      <Testimonials />
+      <JoinBanner />
     </main>
   );
 }
