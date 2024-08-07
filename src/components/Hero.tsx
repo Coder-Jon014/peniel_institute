@@ -21,7 +21,7 @@ const Hero = () => {
       </div>
       <div className="w-full md:w-1/2 flex justify-center">
         <Image 
-          src="https://utfs.io/f/1b6f6a71-b330-4322-ab32-64194cfca787-7kk9r.svg"
+          src="https://utfs.io/f/067aa047-ecec-4cd1-8359-956923e11a5a-6ipgcw.svg"
           alt="Hero Image"
           width={800}
           height={800}
