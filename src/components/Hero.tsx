@@ -23,9 +23,10 @@ const Hero = () => {
         <Image 
           src="https://utfs.io/f/1b6f6a71-b330-4322-ab32-64194cfca787-7kk9r.svg"
           alt="Hero Image"
-          width={500}
-          height={500}
+          width={800}
+          height={800}
           className="rounded-lg z-10 relative w-full max-w-md md:max-w-lg"
+          priority
         />
       </div>
     </div>
