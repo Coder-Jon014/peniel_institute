@@ -14,16 +14,12 @@ const Navbar = () => {
       <div className="flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <Image
-            src="https://utfs.io/f/86e9c3e4-38f4-4753-9a9b-5a4457c70297-1zbfv.png"
+            src="https://utfs.io/f/59601084-3869-4731-8516-4f4b56b4fb2d-du3l9k.svg"
             alt="Peniel Logo"
-            width={30}
+            width={200}
             height={15}
             priority
           />
-          <div className="text-lg font-semibold">
-            <span className="text-peniel-main">Peniel</span>{' '}
-            <span className="text-peniel-secondary">Institute</span>
-          </div>
         </div>
         <div className="hidden md:flex space-x-6">
           <Link href="/" className="hover:text-[#DC241C]">Home</Link>
