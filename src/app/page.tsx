@@ -5,6 +5,7 @@ import Courses from '../components/Courses';
 import Banner from '../components/Banner';
 import Testimonials from '../components/Testimonials';
 import JoinBanner from '../components/JoinBanner';
+import FAQ from '../components/FAQ';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Courses />
       <Testimonials />
       <JoinBanner />
+      <FAQ />
     </main>
   );
 }
