@@ -1,5 +1,7 @@
+'use client';
+
 import Image from 'next/image';
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BackgroundBeams } from "./ui/background-beams";
 
 
@@ -11,9 +13,22 @@ const courses = [
 ];
 
 const Courses = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768); // Adjust this breakpoint as needed
+    };
+
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   return (
     <div className="py-8 md:py-16 px-4 md:px-20 bg-black text-white relative overflow-hidden" id="courses">
-      <BackgroundBeams />
+      {!isMobile && <BackgroundBeams />}
       <div className="relative z-10 ">
         <div className="flex flex-col lg:grid lg:grid-cols-3 lg:gap-8">
           <div className="lg:col-span-2 mb-8 lg:mb-0">
