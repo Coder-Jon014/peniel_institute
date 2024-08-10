@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-gray-100 border-t border-gray-200 text-gray-600 py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between">
-          <div className="mb-8 md:mb-0">
+          <div className="mb-8 ml-8 md:mb-0">
             <Image
               src="https://utfs.io/f/df95a343-7cab-4c19-a438-8e8bceacea93-j44bg3.svg"
               alt="Peniel Institute Logo"
