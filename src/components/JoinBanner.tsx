@@ -4,6 +4,7 @@ import React from 'react';
 import { useState } from 'react';
 import { InterestForm } from './InterestForm';
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 
 const JoinBanner: React.FC = () => {
   const [showForm, setShowForm] = useState(false);
@@ -18,10 +19,11 @@ const JoinBanner: React.FC = () => {
   return (
     <section className="relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32">
       <div className="absolute inset-0">
-        <img
+        <Image
           className="object-cover w-full h-full md:object-left md:scale-150 md:origin-top-left"
           src="https://utfs.io/f/cf32e71d-a43c-412e-82e7-2f55deda7f85-mlzptx.jpg"
           alt="Happy African American woman attending a lecture"
+          layout="fill"
         />
       </div>
 

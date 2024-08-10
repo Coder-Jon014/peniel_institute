@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect, useCallback } from 'react';
 import { HeroHighlight, Highlight } from './ui/hero-highlight';
+import Image from 'next/image';
 
 interface SlideInfo {
   title: string;
@@ -65,10 +66,11 @@ const AboutSections: React.FC = () => {
               index === currentSlide ? 'opacity-100' : 'opacity-0'
             }`}
           >
-            <img
+            <Image
               className="object-cover object-center object-[15%_30%] w-[100vw] h-full"
               src={slide.imageSrc}
               alt={slide.imageAlt}
+              layout="fill"
             />
             <div className="absolute inset-0 bg-black/60"></div>
             <div className="absolute inset-0 flex items-center justify-center">

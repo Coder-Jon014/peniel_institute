@@ -73,7 +73,7 @@ export const InterestForm = ({ onSubmit, onClose }: { onSubmit: (values: any) =>
       </CardHeader>
       <CardContent>
         {isSubmitted ? (
-          <p className="text-center">Thanks for Joining Us. We'll reach out to you.</p>
+          <p className="text-center">Thanks for Joining Us. We&apos;ll reach out to you.</p>
         ) : (
           <Form {...form}>
             <form onSubmit={form.handleSubmit(handleSubmit)} className="space-y-4">

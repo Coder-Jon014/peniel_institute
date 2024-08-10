@@ -29,7 +29,7 @@ const Testimonials: React.FC = () => {
         {testimonials.map((testimonial, index) => (
           <Card key={index} className="min-w-[300px] max-w-[350px]">
             <CardHeader>
-              <CardTitle className="text-xl">"{testimonial.title}"</CardTitle>
+              <CardTitle className="text-xl">&quot;{testimonial.title}&quot;</CardTitle>
               <CardDescription>{testimonial.message}</CardDescription>
             </CardHeader>
           </Card>
