@@ -45,7 +45,7 @@ const AboutSections: React.FC = () => {
   return (
     <>
       <HeroHighlight>
-        <div className="max-w-5xl mx-auto px-4">
+        <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-6xl font-bold text-center mb-6 leading-tight md:leading-relaxed">
             We Bring A Wealth of <Highlight>Skills</Highlight> and{" "}
             <Highlight>Experience</Highlight> to Help You Become A{" "}
@@ -66,7 +66,7 @@ const AboutSections: React.FC = () => {
             }`}
           >
             <img
-              className="object-cover object-center object-[5%_15%] w-[100vw] h-full"
+              className="object-cover object-center object-[15%_20%] w-[100vw] h-full"
               src={slide.imageSrc}
               alt={slide.imageAlt}
             />

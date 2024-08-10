@@ -1,12 +1,14 @@
 import React from 'react';
-import Navbar from '@/components/Navbar';
 import AboutSections from '@/components/AboutSections';
+import MeetTheTeam from '@/components/MeetTheTeam';
+import JoinBanner from '@/components/JoinBanner';
 
 const AboutPage: React.FC = () => {
   return (
     <main className="min-h-screen">
-      <Navbar />
       <AboutSections />
+      <MeetTheTeam />
+      <JoinBanner />
     </main>
   );
 };
