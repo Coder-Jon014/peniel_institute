@@ -67,7 +67,7 @@ const AboutSections: React.FC = () => {
             }`}
           >
             <Image
-              className="object-cover object-center object-[15%_30%] w-[100vw] h-full"
+              className="object-cover object-[15%_30%] w-[100vw] h-full"
               src={slide.imageSrc}
               alt={slide.imageAlt}
               layout="fill"
