@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-6">
           <Link href="/" className="hover:text-[#DC241C]">Home</Link>
           <Link href="/#courses" className="hover:text-[#DC241C]">Courses</Link>
-          <Link href="/about" className="hover:text-[#DC241C]">About Us</Link>
+          <Link href="/about-peniel" className="hover:text-[#DC241C]">About Us</Link>
         </div>
         <Button className="hidden md:block hover:bg-[#DC241C] bg-[#2C1474]" onClick={() => setShowForm(true)}>Get Started</Button>
         <button
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="md:hidden mt-4 space-y-4">
           <Link href="/" className="block hover:text-[#DC241C]">Home</Link>
           <Link href="#courses" className="block hover:text-[#DC241C]">Courses</Link>
-          <Link href="/about" className="block hover:text-[#DC241C]">About Us</Link>
+          <Link href="/about-peniel" className="block hover:text-[#DC241C]">About Us</Link>
           <Button className="w-full hover:bg-[#DC241C] bg-[#2C1474]" onClick={() => setShowForm(true)}>Get Started</Button>
         </div>
       )}
